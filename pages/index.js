@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <HeadComponent />
-      <div className="flex flex-col min-h-screen justify-between w-full">
+      <div className="flex flex-col min-h-screen justify-between min-h-screen w-full">
           <Navbar />
           <Welcome />
           <Footer />

@@ -13,3 +13,57 @@
 .fnt1 {font-family: 'Fredericka the Great', cursive;}
 .fnt2 {font-family: 'Fresca', sans-serif;}
 
+.glassmorphic {
+  backdrop-filter: blur(5px);
+  background: rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+.swiper-img-1 {
+  background: url('../assets/01.jpg') !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* back */
+  min-height: 100vh;
+  width: 100%;
+}
+
+.swiper-img-2 {
+  background: url('../assets/05.jpg') !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh !important;
+  width: 100%;
+}
+
+.swiper-img-3 {
+  background: brown;
+  height: 100vh !important;
+  width: 100vw !important;
+}
+
+.swiper-container {
+  position: absolute;
+}
+
+.slide-btn-container {
+  background: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 2px;
+  padding: 10px 100px;
+  position: fixed;
+  bottom: 0;
+  width: 100% !important;
+  z-index: 1000
+}
+
+.slide-btn-next {
+  /* position: relative; */
+}
+
+.slide-btn-prev {
+  /* position: relative; */
+}

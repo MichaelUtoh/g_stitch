@@ -18,7 +18,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar-center">
-        <Link href="/" className="cursor-pointer fnt2 text-2xl">Stitches</Link>
+        <Link href="/"><a className="cursor-pointer fnt1 text-xl">Stitches</a></Link>
       </div>
       <div className="navbar-end">
         <button className="btn btn-ghost btn-circle">

@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export const ShowGallery = () => {
   return (
-    <div className='flex flex-wrap h-full items-start justify-start py-10 sm:px-[165px] px-10 w-full'>
+    <div className='flex flex-wrap items-start justify-start mx-auto py-10 w-10/12'>
       <ShowCard2 />
       <ShowCard1 />
       <ShowCard3 />
@@ -15,15 +15,17 @@ export const ShowGallery = () => {
 
 export const ShowCard1 = (props) => {
   return (
-      <div className='bg-white h-[250px] m-2 rounded-2xl shadow-lg w-72'>
-        <div className="bg-[url('../assets//01.jpg')] bg-cover bg-no-repeat h-32 m-2 rounded-lg"></div>
-        <div className='m-2 px-1 rounded-lg'>
-          <p className='fnt1 text-lg'>Trend Setting Designs</p>
-          <p className='fnt2 font-thin mt-1 text-[#8a8a8a] text-md'>
-            Our neatly sewn & silky deft touch, sets a pattern for others to follow
-          </p>
+      <Link href="/showcase/detail">
+        <div className='bg-white cursor-pointer h-[250px] m-2 rounded-2xl shadow-lg w-72'>
+          <div className="bg-[url('../assets/01.jpg')] bg-cover bg-no-repeat h-32 m-2 rounded-lg"></div>
+          <div className='m-2 px-1 rounded-lg'>
+            <p className='fnt1 text-lg'>Trend Setting Designs</p>
+            <p className='fnt2 font-thin mt-1 text-[#8a8a8a] text-md'>
+              Our neatly sewn & silky deft touch, sets a pattern for others to follow
+            </p>
+          </div>
         </div>
-      </div>
+      </Link>
   )
 }
 
